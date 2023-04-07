@@ -1,0 +1,8 @@
+#signUpForm > * {
+    display: block;
+    margin: 2px;
+}
+
+#signUpForm > #marketingSignUp, #termsAndConditions {
+    display: inline;
+}
