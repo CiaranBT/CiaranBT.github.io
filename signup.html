@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Beta Scope</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" async="true" src="//ciaranbt200z.btttag.com/btt.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./shops.html">Shop</a></li>
+            <li><a href="./deals.html">Deals</a></li>
+            <li><a href=".#">Sign Up</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div>
+        <img src="./pexels-catpaw.jpg" width="200px" height="200px" fetchpriority="high">
+        <!--Photo by Александар Цветановић: https://www.pexels.com/photo/orange-cat-foot-on-laptop-keyboard-1440387/-->
+
+    </div>
+    <div>
+        <img src="./pexels-welcome.jpg" fetchpriority="high">
+        <!--Photo by Tim Mossholder: https://www.pexels.com/photo/black-and-white-wooden-welcome-sign-3643925/-->
+        <img src="https://images.pexels.com/photos/1687878/pexels-photo-1687878.jpeg" width="800px" height="800px"
+            fetchpriority="low">
+        <!--Photo by Xue Guangjian: https://www.pexels.com/photo/white-leafed-tree-beside-body-of-water-1687878/-->
+    </div>
+    <div id="signUpForm">
+        <select id="title">
+            <option>MX</option>
+            <option>Miss</option>
+            <option>Mrs</option>
+            <option>Mr</option>
+        </select>
+        <input id="firstName" type="text">
+        <input id="lastName" type="text">
+        <div id="marketingSignUp">
+            <input type="radio" name="marketingSignUp" value="yes" id="msuYes">
+            <label for="msuYes">Yes</label>
+            <input type="radio" name="marketingSignUp" value="no" id="msuNo">
+            <label for="msuNo">No</label>
+        </div>
+        <br>
+        <div id="termsAndConditions">
+            <input type="checkbox" id="tandcs">
+            <label for="tandcs">I agree to T&Cs</label>
+        </div>
+        <button id="submit" onclick="handleSubmit()">Submit</button>
+    </div>
+</body>
+
+</html>
