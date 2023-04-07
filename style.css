@@ -11,7 +11,7 @@
     margin-top: 20px;
 }
 
-nav {
+#topNav {
     position: fixed;
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
+#topNav ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -30,17 +30,17 @@ nav ul {
     align-items: center;
 }
 
-nav li {
+#topNav li {
     margin: 0 10px;
 }
 
-nav a {
+#topNav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
     font-size: 16px;
 }
 
-nav a:hover {
+#topNav a:hover {
     color: #555;
 }
