@@ -19,7 +19,18 @@
             <li><a href="./contact.html">Contact Us</a></li>
         </ul>
     </nav>
+    <br>
     <h2 id="welcome">Welcome</h2>
+    <br>
+    <label for="search">Finder Spyder</label>
+    <input id="search" type="text">
+    <button id="btnSearch" onclick="searchSite()">Search -></button>
 </body>
+<script>
+    function searchSite() {
+        searchTerm = document.querySelector('#search').value;
+        location = "https://ciaranbt.github.io/search.html?q=" + searchTerm;
+    }
+</script>
 
 </html>
