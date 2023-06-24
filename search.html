@@ -29,7 +29,7 @@
 
 <script>
     function searchedFor() {
-        document.getElementById("searchTerm").textContent = location.search.replace(/\?/g, "");
+        document.getElementById("searchTerm").textContent = location.search.replace("?q=", "");
     }
     searchedFor();
 </script>
