@@ -60,5 +60,10 @@
         <button id="submit" onclick="handleSubmit()">Submit</button>
     </div>
 </body>
-
+<script>
+    function searchSite() {
+        searchTerm = document.querySelector('#search').value;
+        location = "https://ciaranbt.github.io/search.html?q=" + searchTerm;
+    }
+</script>
 </html>
