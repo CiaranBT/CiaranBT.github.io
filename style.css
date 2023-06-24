@@ -49,3 +49,7 @@
 #searchTerm {
     font-style: italic;
 }
+
+#searchLabel {
+    font-weight: bold;
+}
