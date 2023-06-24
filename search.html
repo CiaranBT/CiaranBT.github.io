@@ -26,9 +26,9 @@
     <br>
     <h2 id="welcome">You searched for <span id="searchTerm"></span></h2>
     <hr>
-    <div>R111</div>
-    <div>R222222</div>
-    <div>R33</div>
+    <div id="searchResults">
+        <span id="validResults"></span>
+    </div>
 </body>
 
 <script>
@@ -36,7 +36,16 @@
         document.getElementById("searchTerm").textContent = location.search.replace("?q=", "");
     }
     searchedFor();
-
+    
+    function checkCondition() {
+      return Math.floor(Math.random() * 5) + 1 === 1;
+    }
+    if(checkCondition()) {
+        document.getElementById("validResults").innerText = "No results";
+    } else {
+        document.getElementById("validResults").innerText = "Valid results";
+    }
+    
     function searchSite() {
         searchTerm = document.querySelector('#search').value;
         location = "https://ciaranbt.github.io/search.html?q=" + searchTerm;
