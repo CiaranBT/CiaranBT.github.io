@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Beta Scope</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" async="true" src="//ciaranbt200z.btttag.com/btt.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <nav id="topNav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./shops.html">Shop</a></li>
+            <li><a href="./deals.html">Deals</a></li>
+            <li><a href="./signup.html">Sign Up</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h2 id="welcome">You searched for <span id="searchTerm"></span></h2>
+    <hr>
+    <div>R111</div>
+    <div>R222222</div>
+    <div>R33</div>
+</body>
+
+<script>
+    function searchedFor() {
+        document.getElementById("searchTerm").textContent = location.search.replace(/\?/g, "");
+    }
+    searchedFor();
+</script>
+
+</html>
