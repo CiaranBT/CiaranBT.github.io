@@ -45,3 +45,7 @@
 #topNav a:hover {
     color: #555;
 }
+
+#searchTerm {
+    font-style: italic;
+}
