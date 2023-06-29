@@ -11,6 +11,20 @@
     margin-top: 20px;
 }
 
+.p-product {
+    padding: 5px;
+    height: 20%;
+    width: 20%;
+    margin: 0px;
+}
+
+.p-product-c {
+    width: 1000px;
+    border: 1px solid black;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 5px;
+}
 #topNav {
     position: fixed;
     top: 0;
